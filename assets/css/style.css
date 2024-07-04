@@ -1,0 +1,55 @@
+:root {
+  --themesaclient: black;
+  --themenaku: orange;
+  --fontsizesaclient: 100px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+img,
+data,
+span,
+input,
+button,
+select,
+ion-icon,
+textarea {
+  display: block;
+}
+
+.pone,
+.ptwo,
+.pthree {
+  width: 100vw;
+  height: 20vh;
+  border-style: solid;
+}
+
+.pone {
+  background-color: var(--themesaclient);
+  font-size: var(--fontsizesaclient);
+  p {
+    background-color: var(--themenaku);
+  }
+}
+
+.ptwo {
+  background-color: var(--themesaclient);
+  font-size: var(--fontsizesaclient);
+}
+
+.pthree {
+  background-color: var(--themesaclient);
+  font-size: var(--fontsizesaclient);
+}
