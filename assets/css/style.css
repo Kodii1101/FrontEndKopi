@@ -1,5 +1,5 @@
 :root {
-  --themesaclient: white;
+  --themesaclient: maroon;
   --themenaku: orange;
   --fontsizesaclient: 100px;
 }
@@ -38,22 +38,4 @@ textarea {
 
 .pone {
   background-color: var(--themesaclient);
-  font-size: var(--fontsizesaclient);
-  p {
-    background-color: var(--themenaku);
-  }
-}
-
-.ptwo {
-  background-color: var(--themesaclient);
-  font-size: var(--fontsizesaclient);
-}
-
-.pthree {
-  background-color: var(--themesaclient);
-  font-size: var(--fontsizesaclient);
-}
-
-.pthree:hover {
-  background-color: aqua;
 }
