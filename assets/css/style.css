@@ -28,9 +28,7 @@ textarea {
   display: block;
 }
 
-.pone,
-.ptwo,
-.pthree {
+.pone {
   width: 100vw;
   height: 20vh;
   border-style: solid;
@@ -38,4 +36,12 @@ textarea {
 
 .pone {
   background-color: var(--themesaclient);
+}
+
+.mainbody,
+.mainheader,
+.mainfooter {
+  background-color: var(--themenaku);
+  border-color: black;
+  height: 20vh;
 }
